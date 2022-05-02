@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html 5 input types</title>
+</head>
+
+<body>
+    <h1>html5 input types</h1>
+    <h3>email address field</h3>
+    <input type="email" name="email" id="email">
+    <input type="submit" value="submits">
+    <h3>would also works for multiple emails in one box, separated by commas</h3>
+    <input type="email" multiple>
+    <input type="submit" value="submits">
+    <h3>yayy search boxes</h3>
+    <input type="search" name="search" id="search">
+    <input type="submit" value="search">
+    <h3>phone number fields</h3>
+    <input type="tel" name="tel" id="tel">
+    <input type="submit" value="call">
+
+    <hr>
+
+    <input type="url" name="url" id="url">
+    <input type="number" name="num" id="num" min="1" max="10" step="2">
+    <input type="range" name="slider" id="slider" min="0" max="100" step="0.1">
+
+    <hr>
+
+    <label for="price">Choose a maximum house price: </label>
+    <input type="range" name="price" id="price" min="50000" max="500000" step="100" value="250000">
+    <output class="price-output" for="price"></output>
+
+    <hr>
+    <input type="datetime-local" name="datetime" id="datetime">
+    <input type="month" name="month" id="month">
+    <input type="time" name="time" id="time">
+    <input type="week" name="week" id="week">
+    <label for="myDate">When are you available this summer?</label>
+    <input type="date" name="myDate" min="2013-06-01" max="2013-08-31" step="7" id="myDate">
+
+    <hr>
+
+    <input type="color" name="color" id="color">
+
+
+
+    <script>
+        const price = document.querySelector('#price');
+        const output = document.querySelector('.price-output');
+
+        output.textContent = price.value;
+
+        price.addEventListener('input', function () {
+            output.textContent = price.value;
+        });
+    </script>
+</body>
+
+</html>
