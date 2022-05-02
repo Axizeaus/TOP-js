@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic form control test</title>
+</head>
+
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>log in</legend>
+            <ul>
+                <li>
+                    <label for="userID">user ID</label>
+                    <input type="text" name="userID" id="userID">
+                </li>
+                <li>
+                    <label for="password">password</label>
+                    <input type="password" name="password" id="password">
+                </li>
+                <li>
+                    <input type="submit" value="submit">
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+
+    <hr>
+
+    <form>
+        <fieldset>
+            <legend>Who is your favourite pony</legend>
+            <ul style="list-style:none">
+                <li>
+                    <input type="radio" name="ponyName" id="1">
+                    <label for="1">Pinkie pie</label>
+                </li>
+                <li>
+                    <input type="radio" name="ponyName" id="2">
+                    <label for="2">yellowish witch</label>
+                </li>
+                <li>
+                    <input type="radio" name="ponyName" id="3">
+                    <label for="3">Brownie</label>
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Hot dog preference</legend>
+            <ul style="list-style:none">
+                <li>
+                    <input type="radio" name="hdp" id="h1">
+                    <label for="h1">vegan</label>
+                </li>
+                <li>
+                    <input type="radio" name="hdp" id="h2">
+                    <label for="h2">onion</label>
+                </li>
+            </ul>
+        </fieldset>
+        <input type="submit" value="submit">
+    </form>
+
+    
+    <form>
+        <ul>
+          <li>
+            <label for="gallery-img">Choose gallery images to upload</label>
+            <input type="file" name="filepicker" id="gallery-img" accept="*.jpg" multiple>
+          </li>
+        </ul>
+      <button>Submit</button>
+    </form>
+        
+</body>
+
+</html>
