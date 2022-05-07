@@ -1,0 +1,15 @@
+input{
+    border: solid black 1px;
+    margin: 10px;
+    padding: 6px;
+    border-radius: 1rem;
+}
+
+input:required:invalid{
+    border: solid red 2px;
+    background-image: radial-gradient(rgb(91, 198, 91));
+}
+
+input:required{
+    border: 2px red solid;
+}
