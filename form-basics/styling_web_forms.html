@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>styling web forms</title>
+</head>
+
+<body>
+
+    <!-- <div class="wrapper">
+        <form>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div>
+                <label for="photo">Photo</label>
+                <input type="file" id="photo" name="photo">
+            </div>
+            <button>Save</button>
+        </form>
+    </div> -->
+    <form action="http://httpbin.org/post" method="post">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" autocomplete="name">
+        </div>
+        <input type="submit" value="save">
+    </form>
+
+    <form action="http://httpbin.org/post" method="post">
+        <div>
+            <label for="username">username(required):</label>
+            <input required type="text" name="username" id="username" minlength="3">
+        </div>
+        <div>
+            <label for="password">password(required)</label>
+            <input required type="password" name="password" id="password" minlength="8" aria-describedby="password-minlength">
+        </div>
+        <input type="submit" value="Login">
+    </form>
+
+    <form action="http://httpbin.org/post" method="post">
+        <div>
+            <label for="fave-animal">What is your favourite animal?</label>
+            <input type="text" name="animal" id="fave-animal" required pattern="[a-z]{2-20}">
+        </div>
+        <input type="submit" value="submit">
+    </form>
+</body>
+
+</html>
