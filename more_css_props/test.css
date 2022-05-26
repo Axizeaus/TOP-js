@@ -1,0 +1,80 @@
+div {
+    width: 500px;
+    height: 300px;
+    border: 1rem ridge rgb(73, 64, 64);
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg1 {
+    background-color: green;
+}
+
+.bg2 {
+    background-image: radial-gradient(yellow, blue, rgb(10,10,10));
+}
+
+.bg3{
+    background: red;
+}
+
+.bg4{
+    background: no-repeat center/2% blue;
+}
+
+.bg5{
+    background: unset;
+}
+
+.bxsh1{
+    box-shadow: 10px 2px 5px red;
+}
+
+.bxsh2{
+    box-shadow: 60px -16px teal;;
+}
+
+.bxsh3{
+    box-shadow: 10px 5px 5px black;
+}
+
+.bxsh4{
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.bxsh5{
+    box-shadow: inset 5em 1em skyblue;
+}
+
+.bxsh6{
+    box-shadow: 3px 3px red, -1em 0 0.4em olive, 10px -10px blue;
+}
+
+.bdrr1{
+    border-radius: 100px;
+}
+.bdrr2{
+    border-radius: 50% 10%;
+}
+.bdrr3{
+    border-radius: 10% 30% 50% 70%;
+}
+.bdrr4{
+    border-radius: 100% 100%  100%  100%;
+}
+.bdrr5{
+    border-radius: 10% / 50%;
+}
+.bdrr6{
+    border-radius: 10px 100px / 120px;
+}
+.bdrr7{
+    border-radius: 50% 20% / 10% 40%;
+}
+.bdrr8{
+    border-radius: 25% 10% 50% 90%;
+}
