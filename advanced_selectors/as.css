@@ -1,0 +1,29 @@
+div {
+    border : 1px black solid;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.parent > div {
+    background-color: bisque;
+}
+
+.parent > div > div {
+    margin-left: 200px;
+    background-color: darkslategray;
+}
+
+.group1 + div{
+    margin-left: 300px;
+    background-color: darkturquoise;
+}
+
+.grandchild + div + div {
+    margin-left : 400px;
+    background-color: goldenrod;
+}
+
+.child ~ div {
+    margin-left : 822px;
+}

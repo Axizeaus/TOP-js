@@ -1,0 +1,21 @@
+button{
+    width: 100px;
+    height: 50px;
+    margin:  20px;
+}
+
+button:hover{
+    background-color: beige;
+}
+
+button:focus{
+    background-color: chartreuse;
+}
+
+button:decrement{
+    background-color: brown;
+}
+
+div > button:active{
+    background-image: linear-gradient(blue, green);
+}
