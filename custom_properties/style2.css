@@ -1,0 +1,12 @@
+:root {
+    --color : yellowgreen;
+}
+
+.cool {
+    background-color: var(--color);
+}
+
+.cooler {
+    color: var(--color);
+    background-color: aquamarine;
+}
