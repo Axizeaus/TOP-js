@@ -1,0 +1,27 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: rgb(216, 22, 22);
+$bg-color: gold;
+
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+    background-color: $bg-color;
+}
+
+nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    a {
+        display: block;
+        padding: 6px 12px;
+        text-decoration: none;
+    }
+}
