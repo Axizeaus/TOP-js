@@ -34,33 +34,34 @@
             </h2>
         </header>
         <main>
-            <div>
-                <label for="fname">First Name</label>
-                <input type="text" name='fname' id="fname"> 
-            </div>
-            <div>
-                <label for="lname">Last name</label>
-                <input type="text" name='lname' id="lname">
-            </div>
-            <div>
-                <label for="email">Email Address</label>
-                <input type="email" name="email" id="email">
-            </div>
-            <div>
-                <label for="Phone number">Phone Number</label>
-                <input type="tel" name="phNO" id="phone-number">
-            </div>
-            <div>
-                <label for="password">Password</label>
-                <input type="password" name="password" id="Password">
-            </div>
-            <div>
-                <label for="confirm-pw">Confirm Password</label>
-                <input type="password" name="confirm-pw" id="confirm-pw">
-            </div>
+            <form action="http://www.httpbin/post" method="post">
+                <div>
+                    <label for="fname">*First Name</label>
+                    <input type="text" name='fname' id="fname" required>
+                </div>
+                <div>
+                    <label for="lname">*Last name</label>
+                    <input type="text" name='lname' id="lname" required>
+                </div>
+                <div>
+                    <label for="email">*Email Address</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div>
+                    <label for="password">*Password</label>
+                    <input type="password" name="password" id="Password" required>
+                </div>
+                <div>
+                    <label for="confirm-pw">*Confirm Password</label>
+                    <input type="password" name="confirm-pw" id="confirm-pw" required>
+                </div>
+            </form>
+        
         </main>
         <footer>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nihil cumque reiciendis recusandae et iusto inventore quam ipsa natus. Officiis odio harum vitae cumque, porro accusamus beatae consequuntur iure tempore?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nihil cumque reiciendis recusandae et iusto
+            inventore quam ipsa natus. Officiis odio harum vitae cumque, porro accusamus beatae consequuntur iure
+            tempore?
         </footer>
     </div>
 
