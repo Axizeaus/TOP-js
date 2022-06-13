@@ -1,6 +1,6 @@
 body{
+    display: flex;
     font-family: 'Montserrat', sans-serif;
-
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -34,4 +34,22 @@ body{
     width: 50%;
     text-align: center;
     
+}
+
+header {
+    height: 20vh;
+    border: solid black 5px;
+    text-align: center;
+}
+
+main {
+    height: 60vh;
+    border: solid black 5px;
+    text-align: center;
+}
+
+footer {
+    height: 20vh;
+    border: solid black 5px;
+    text-align: center;
 }
