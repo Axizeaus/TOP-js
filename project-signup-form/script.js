@@ -7,3 +7,7 @@ function validate(){
         alert('password not same')
     }
 }
+
+function createAcc(){
+    alert('account created...')
+}
