@@ -49,11 +49,12 @@
                 </div>
                 <div>
                     <label for="password">*Password</label>
-                    <input type="password" name="password" id="Password" required>
+                    <input type="password" name="password" id="pw" required>
                 </div>
                 <div>
                     <label for="confirm-pw">*Confirm Password</label>
-                    <input type="password" name="confirm-pw" id="confirm-pw" required>
+                    <input type="password" name="confirm-pw" id="confirm-pw" required
+                    onblur="validate()">
                 </div>
             </form>
         
@@ -63,6 +64,7 @@
         </footer>
     </div>
 
+    <script src="script.js"></script>
 </body>
 
 </html>
