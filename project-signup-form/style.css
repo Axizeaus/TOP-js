@@ -75,3 +75,15 @@ label{
 form > div {
     margin: 20px;
 }
+
+input:focus{
+    box-shadow:5px 3px 3px black;
+}
+
+input:valid{
+    color: green;
+}
+
+input:invalid{
+    color:red;
+}
