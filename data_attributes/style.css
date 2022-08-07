@@ -1,0 +1,34 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: fuchsia;
+    border: 1px solid black;
+}
+
+div[data-foo] {
+    background-color: blanchedalmond;
+}
+
+[data-size='10'] {
+    width: 10px;
+    height: 10px;
+    background-color: wheat;
+}
+
+div[data-size = 10] {
+    background-color: black;
+}
+
+div[data-test] {
+    background-color: brown;
+}
+
+button[data-type = 'download']{
+    background-color: greenyellow;
+    border-radius: 10%;
+}
+
+button[data-type = 'download']:hover{
+    width: 100px;
+    height: 100px;
+}
