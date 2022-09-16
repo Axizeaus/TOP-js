@@ -2,10 +2,21 @@ body{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 1fr 3fr 1fr;
+    background-color: beige;
 }
 
 #content{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: bisque;
+    text-align: center;
+}
+
+.active{
+    display: block;
+}
+
+.inactive{
+    display: none;
 }

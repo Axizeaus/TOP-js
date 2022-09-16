@@ -1,3 +1,3 @@
 import { makeDropDown } from "./dropDown";
-import './style.css';
+import './style/index.css';
 makeDropDown();
