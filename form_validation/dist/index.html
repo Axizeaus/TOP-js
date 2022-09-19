@@ -9,10 +9,10 @@
 <body>
     <form>
         <label for="email">Email:</label>
-        <input type="email" name="email" id="email">
+        <input type="email" name="email" id="email" required>
         <label for="country">Country:</label>
-        <select id="country" name="country">
-            <option>select country</option>
+        <select id="country" name="country" required>
+            <option value="default" selected>select country</option>
             <option value="AF">Afghanistan</option>
             <option value="AX">Aland Islands</option>
             <option value="AL">Albania</option>
@@ -267,11 +267,12 @@
             <option value="ZW">Zimbabwe</option>
         </select>
         <label for="zipcode">Zipcode</label>
-        <input type="number" name="zipcode" id="zipcode" minlength="5" maxlength="5">
+        <input type="number" name="zipcode" id="zipcode" maxlength="5" required>
         <label for="password">Password</label>
-        <input type="password" name="password" id="password">
+        <input type="password" name="password" id="password" required>
         <label for="confirmPw">Confirm Password</label>
-        <input type="password" name="confirmPw" id="confirmPw">
+        <input type="password" name="confirmPw" id="confirmPw" required>
+        <input type="submit" value="submit">
     </form>
     <script src="./main.js"></script>
 </body>
