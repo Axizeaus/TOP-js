@@ -1,0 +1,1 @@
+(()=>{const e=document.getElementById("email");document.getElementById("country"),document.getElementById("zipcode"),document.getElementById("password"),document.getElementById("confirmPw"),e.addEventListener("input",(()=>{e.setCustomValidity(""),e.checkValidity()}))})();
