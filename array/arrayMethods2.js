@@ -11,6 +11,6 @@ let arr = [1, 2, 15];
 
 arr.sort();
 console.log(arr);
-arr.sort(compareNumeric);
 
+arr.sort(compareNumeric);
 console.log(arr);
