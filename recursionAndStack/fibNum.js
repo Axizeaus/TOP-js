@@ -7,6 +7,9 @@
 // recursion approach takes too long for big numbers.
 
 function fibNum(n){
+  if (n === 0){
+    return null;
+  }
   if (n === 1 || n === 2){
     return 1
   } 
